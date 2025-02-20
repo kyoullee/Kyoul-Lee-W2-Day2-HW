@@ -23,25 +23,45 @@
             </div>
         </header>
 
-        <!-- Main Content Area -->
-        <main>
-            <h2>Contact Us</h2>
-            <h3>We’d love to hear from you!</h3>
-
-            <!-- Contact Form -->
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </main>
+         <!-- Main Content Area -->
+    </head>
+    <body>
+        <h1>Contacting Us</h1>
+        <p>
+            You can drop by the visitors information center at the cliff site that you plan on visiting. They are open 7 days a week from 8.00AM to 5.00PM. You can also contact us directly if you need additional information about the Cliffs, Hours of Operations. Facilities or questions about this site using one of the following: </p>
+        <h2>Phone:</h2>
+        <p>(800)GCLIFFS</p>
+        <h2>Email:</h2>
+        <p>info@greatcliffs.com</p>
+        <form action="/signup" method="post">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label>Enter your name</label><br>
+                <input type="text" name="name" /><br>
+                <label>Enter your email</label><br>
+                <input type="email" name="email" /><br>
+                <label>Enter your phone</label><br>
+                <input type="text" name="phone" /><br>
+                <br>
+                <lable>How should we contact you?</lable><br>
+                <input type="radio" name="contact" value="Email" />Email
+                <input type="radio" name="contact" value="Phone" />Phone <br/>
+                <br><lable>Which Cliff are you inquiring?</lable><br>
+                <select>
+                    <option>West Cliff</option>
+                    <option>North Cliff</option>
+                    <option>East Cliff</option>
+                    <option>South Cliff</option>
+                </select><br>
+                <br>How did you hear about us<br>
+                <textarea rows="5 cols="30"></textarea><br>
+                <input type="submit" value="Inquire">
+            </fieldset>
+        </form>
+    </body>
+    </div>
+</body>
+</html>
 
         <!-- Partners Section -->
         <section>
